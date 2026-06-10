@@ -42,6 +42,7 @@ These skills are installed in `.agents/skills/` and auto-loaded by Pi (Claude Co
 
 | Skill | Source | Purpose |
 |-------|--------|---------|
+| **hono** | `yusukebe/hono-skill` | Official Hono skill by Yusuke Wada — middleware patterns, ctx API, routing, validation |
 | **workers-best-practices** | `cloudflare/skills` | Cloudflare Workers optimization, limits, KV, D1, R2 patterns |
 | **wrangler** | `cloudflare/skills` | Wrangler CLI: deploy, secrets, env, wrangler.toml config |
 | **api-design-principles** | `wshobson/agents` | RESTful conventions, resource modeling, error responses, versioning |

@@ -13,6 +13,18 @@
       "skillPath": "skills/docker-expert/SKILL.md",
       "computedHash": "0974b5f64fcd284c1bd662810e2388f7beb9be6784c597de4d0ad4213ccbd6af"
     },
+    "hono": {
+      "source": "yusukebe/hono-skill",
+      "sourceType": "github",
+      "skillPath": "skills/hono/SKILL.md",
+      "computedHash": "220e5e1b12bbaeec49ec362b6e2262d77632d0536e9758bba9acbbc323fef990"
+    },
+    "hono-api-scaffolder": {
+      "source": "jezweb/claude-skills",
+      "sourceType": "github",
+      "skillPath": "plugins/cloudflare/skills/hono-api-scaffolder/SKILL.md",
+      "computedHash": "214b99dbb9875f5d1228a2cd7db0815cf6cbf36d3f7defaf4ab801898badaf59"
+    },
     "javascript-testing-patterns": {
       "source": "wshobson/agents",
       "sourceType": "github",
