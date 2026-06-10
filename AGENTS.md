@@ -36,3 +36,16 @@
 - Validate all external input with Zod.
 - Prefer small, composable route modules.
 - Keep middleware pure and reusable.
+
+## Installed skills.sh skills (for coding agents)
+These skills are installed in `.agents/skills/` and auto-loaded by Pi (Claude Code), Cursor, Copilot, etc.
+
+| Skill | Source | Purpose |
+|-------|--------|---------|
+| **workers-best-practices** | `cloudflare/skills` | Cloudflare Workers optimization, limits, KV, D1, R2 patterns |
+| **wrangler** | `cloudflare/skills` | Wrangler CLI: deploy, secrets, env, wrangler.toml config |
+| **api-design-principles** | `wshobson/agents` | RESTful conventions, resource modeling, error responses, versioning |
+| **typescript-advanced-types** | `wshobson/agents` | TypeScript generics, conditional types, mapped types, strict patterns |
+| **javascript-testing-patterns** | `wshobson/agents` | Vitest patterns, mocking, integration tests for JS/TS APIs |
+| **test-driven-development** | `obra/superpowers` | TDD loop: RED → GREEN → REFACTOR, write tests before implementation |
+| **docker-expert** | `sickn33/antigravity-awesome-skills` | Docker multi-stage builds, health checks, production Dockerfile patterns |

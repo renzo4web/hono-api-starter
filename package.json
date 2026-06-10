@@ -32,5 +32,19 @@
     "typescript": "^5.0.0",
     "typescript-eslint": "^8.0.0",
     "vitest": "^2.0.0"
-  }
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renzo4web/hono-api-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/renzo4web/hono-api-starter/issues"
+  },
+  "homepage": "https://github.com/renzo4web/hono-api-starter#readme"
 }
