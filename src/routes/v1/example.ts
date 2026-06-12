@@ -25,7 +25,7 @@ const EchoResponseSchema = z
 const healthRoute = createRoute({
   method: 'get',
   path: '/health',
-  tags: ['Example'],
+  tags: ['v1'],
   summary: 'Service health check',
   responses: {
     200: {
@@ -52,7 +52,7 @@ router.openapi(healthRoute, (c) => {
 const echoRoute = createRoute({
   method: 'post',
   path: '/echo',
-  tags: ['Example'],
+  tags: ['v1'],
   summary: 'Echo a message back to the caller',
   request: {
     body: {
